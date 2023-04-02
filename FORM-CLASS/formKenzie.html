@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de inscrição</title>
+</head>
+<body>
+    <form>
+        <label for="nome">Nome</label>
+        <br>
+        <input id="nome" type="text" placeholder="Digite seu nome aqui..." required>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input id="email" type="text" placeholder="Digite seu email aqui..." required>
+        <br>
+        <label for="motivo">O que te motivou a participar do evento?</label>
+        <br>
+        <textarea id="motivo" cols="30" rows="10" placeholder="Descreva aqui.." required></textarea>
+        <br>
+        <label for="modulo">Selecione seu Módulo
+        </label>
+        <br>
+        <select name="" id="modulo" required>
+            <option value="">Escolher Módulo</option>
+            <option value="modulo1">Módulo 1</option>
+            <option value="modulo2">Módulo 2</option>
+            <option value="modulo3">Módulo 3</option>
+            <option value="modulo4">Módulo 4</option>
+
+        </select>    
+        <br>
+        <label for="senha">Cadastre uma senha</label>
+        <br>
+        <input id="senha" type="password" placeholder="Digite sua senha aqui..." required>
+        <br>
+        <label for="senhaConfirma">Confirme a sua senha</label>
+        <br>
+        <input id="senhaConfirma" type="password" placeholder="Repita a senha..." required>
+        <br>
+        <p>Deseja receber novidades em seu email?</p>
+        <br>
+        <label for="sim">Sim</label>
+        <input id="sim" type="radio" required value="sim" name="resposta">
+        <label for="nao">Não</label>
+        <input id="nao" type="radio" required value="nao" name="resposta">
+        <br>
+        <button type="submit">Cadastrar</button>
+
+    </form>
+</body>
+</html>
